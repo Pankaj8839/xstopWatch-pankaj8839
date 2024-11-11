@@ -32,8 +32,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>StopWatch</h1>
-      <p>{formatTime(time)}</p>
+      <h1>Stopwatch</h1>
+      <p>Time: {formatTime(time)}</p>
       {intervalId === -1 ?  <button onClick={()=>startFunction()}>Start</button>:<button onClick={() => stopFunction()}>Stop</button>}
    
 
